@@ -29,4 +29,5 @@ This is only possible thanks to both containers being linked through
 a bind mount on /Model.
 Normally Django is not allowed to fetch files outside its directory, 
 so I had to tweak the settings.py in order to do so. </pre>
-<h1>Give it a try! Go to localhost:8000 and see the results.</h1>
+
+# Give it a try! Go to [localhost:8000](http://localhost:8000) and see the results.
