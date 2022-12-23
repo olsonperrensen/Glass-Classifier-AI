@@ -4,7 +4,7 @@
 <h6>Machine learning with Django</h6>
 <br>
 <p>This project uses Sai Prakash Reddy's Random Forest Classifier as inspiration. It is meant to distinguish different types of glasses depending on their chemical composition. </p>
-<p>In order to run it, use the following command in the top-level directory of this project (/): </p>
+<p>In order to run it, use the following command at the top-level directory of this project (/): </p>
 <code>docker-compose up</code>
 <hr>
 <pre>Explanation:</pre>
