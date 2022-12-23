@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *
+        {
+            color:white;
+            background:black;
+        }
+    </style>
+    <h1>Results</h1>
+    <h3>You entered: {{lis}}</h3>
+    <h2>The category of Glass is: {{ans}}</h2>
+    <pre>Explanation:</pre>
+    <ol>
+        <li>buildingwindowsfloatprocessed</li>
+        <li>buildingwindowsnonfloatprocessed</li>
+        <li>vehiclewindowsfloatprocessed</li>
+        <li>vehiclewindowsnonfloatprocessed (none in db)</li>
+        <li>containers</li>
+        <li>tableware</li>
+        <li>headlamps</li>
+    </ol>
+    <a href="{% url 'home' %}">Go back</a>
+</body>
+</html>
