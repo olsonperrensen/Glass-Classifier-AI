@@ -1,5 +1,7 @@
 from django.shortcuts import render
 import joblib
+import os
+from django.conf import settings
 
 
 def home(req):
@@ -7,7 +9,8 @@ def home(req):
 
 
 def result(req):
-    cls = joblib.load('finalized_model.sav')
+    file_path = os.path.join(settings.FILES_DIR, 'finalized_model.sav')
+    cls = joblib.load(file_path)
     lis = []
     lis.append(req.GET['RI'])
     lis.append(req.GET['Na'])
@@ -19,4 +22,4 @@ def result(req):
     lis.append(req.GET['Ba'])
     lis.append(req.GET['Fe'])
     ans = cls.predict([lis])
-    return render(req, 'result.html',{'ans':ans,'lis':lis})
+    return render(req, 'result.html', {'ans': ans, 'lis': lis})
