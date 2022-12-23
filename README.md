@@ -1,9 +1,8 @@
 # Glass-Classifier-AI
-<style>
-red { color: red; background: white }
-</style>
-<red>by Max Iturria (r0834721)</red>
-Machine learning with Django
+### by [Max Iturria](https://github.com/olsonperrensen) ([r0834721](https://github.com/olsonperrensen))
+<br>
+<h6>Machine learning with Django</h6>
+<br>
 <p>This project uses Sai Prakash Reddy's Random Forest Classifier as inspiration. It is meant to distinguish different types of glasses depending on their chemical composition. </p>
 <p>In order to run it, use the following command: </p>
 <code>docker-compose up</code>
