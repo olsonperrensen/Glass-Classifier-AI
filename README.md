@@ -1,4 +1,5 @@
 # Glass-Classifier-AI
+<p style='background:white;color:red'>by Max Iturria (r0834721)</p>
 Machine learning with Django
 <p>This project uses Sai Prakash Reddy's Random Forest Classifier as inspiration. It is meant to distinguish different types of glasses depending on their chemical composition. </p>
 <p>In order to run it, use the following command: </p>
