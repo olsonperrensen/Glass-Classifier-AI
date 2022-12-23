@@ -10,6 +10,7 @@ def home(req):
 
 def result(req):
     file_path = os.path.join(settings.FILES_DIR, 'finalized_model.sav')
+    # print(file_path)
     cls = joblib.load(file_path)
     lis = []
     lis.append(req.GET['RI'])

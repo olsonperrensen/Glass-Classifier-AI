@@ -1,0 +1,4 @@
+Django
+Pillow
+joblib
+scikit-learn

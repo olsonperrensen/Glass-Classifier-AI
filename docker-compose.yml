@@ -5,3 +5,13 @@ services:
             context: ./Model
         volumes: 
             -  ./Model:/app
+    web:
+        build: 
+            context: ./DeployModel
+        volumes:
+            -  ./Model:/Model
+            - ./DeployModel:/app
+        ports:
+           - "8000:8000"
+        depends_on:
+            - model
